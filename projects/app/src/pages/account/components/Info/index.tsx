@@ -594,7 +594,7 @@ const Other = ({ onOpenContact }: { onOpenContact: () => void }) => {
   );
   return (
     <Box>
-      <Grid gridGap={4} mt={3}>
+      {/* <Grid gridGap={4} mt={3}>
         {feConfigs?.docUrl && (
           <Link
             bg={'white'}
@@ -705,7 +705,7 @@ const Other = ({ onOpenContact }: { onOpenContact: () => void }) => {
             {t('common:system.Concat us')}
           </Button>
         )}
-      </Grid>
+      </Grid> */}
 
       {isOpenLaf && userInfo && (
         <LafAccountModal defaultData={userInfo?.team.lafAccount} onClose={onCloseLaf} />
